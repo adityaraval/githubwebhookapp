@@ -23,6 +23,7 @@ module.exports = {
     },
     printWebHookResponse:function(req,res){
         var values = req.allParams();
+        console.log(req.headers,"HEADERS");
     }
 };
 
